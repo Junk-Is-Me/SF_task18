@@ -1,0 +1,17 @@
+extends ../template
+
+block variables 
+    - var title = 'Обо мне'
+
+block content 
+    main 
+        section.about_me 
+            .container 
+                h1 Это про меня
+                .profile
+                    .profile__photo
+                        img(src="images/me_about.webp", alt="me")
+                    .profile__info 
+                        p Имя: Сергей
+                        p Фамилия: Науман
+                        p Возраст: 26

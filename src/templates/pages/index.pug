@@ -1,0 +1,18 @@
+extends ../template
+
+block variables 
+    - var title = 'Главная'
+
+block content 
+    main 
+        section.index 
+            .container 
+                h1 Это главная страница
+                .slider
+                    .slider__images 
+                    .slider__arrows 
+                        .arrow.left &#9668;
+                        .arrow.right &#9658;
+                    .slider-dots
+script(src="scripts/script.js") 
+

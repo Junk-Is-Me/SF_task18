@@ -1,0 +1,17 @@
+extends ../template
+
+block variables 
+    - var title = 'Контакты'
+
+block content 
+    main 
+        section.contacts 
+            .container 
+                h1 Это контакты
+                .contacts__block 
+                    .contacts__photo 
+                        img(src="images/me_contact.webp", alt="")
+                    .contacts__links 
+                        a(href="https://www.instagram.com/"): img(src="images/insta.webp", alt="")
+                        a(href="https://vk.com/feed"): img(src="images/vk.webp", alt="")
+                        //a(href="https://soundcloud.com"): img(src="images/soundcloud.webp", alt="")
